@@ -1,12 +1,4 @@
 import { MOCK_PATIENTS } from "./handlers";
-import { safeMapPatients, safeMapTasks } from "../utils/mappers";
-
-const taskMap: Record<string, unknown[]> = {};
-
-async function loadTasks() {
-  const { MOCK_TASKS } = await import("./handlers") as any;
-  return MOCK_TASKS;
-}
 
 export function setupStaticHandlers() {
   const originalFetch = window.fetch;
