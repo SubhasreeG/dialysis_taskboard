@@ -4,6 +4,18 @@ A production grade care plan taskboard for dialysis centre staff. Tracks recurri
 
 ---
 
+## Demo
+
+### Screenshots & Recordings
+All screenshots and screen recordings are available in the [`/screenshots`](https://github.com/SubhasreeG/dialysis-taskboard/tree/main/screenshots) folder.
+
+Key flows covered:
+- Main board view with all patients and risk scores
+- Role and time filtering
+- Creating a new task
+- Light / dark mode toggle
+- Optimistic update rollback (task snaps back on server error)
+
 ## Quick Start
 ```bash
 git clone <repo-url>
